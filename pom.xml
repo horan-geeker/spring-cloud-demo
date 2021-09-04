@@ -19,8 +19,12 @@
         <spring-cloud.version>2020.0.3</spring-cloud.version>
     </properties>
 
+    <!-- 文件夹名称 自动标识 module -->
     <modules>
-        <module>eureka</module>
+        <module>spring-cloud-eureka</module>
+        <module>spring-cloud-admin</module>
+        <module>spring-cloud-config</module>
+        <module>spring-cloud-service</module>
     </modules>
 
     <dependencies>
